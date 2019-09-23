@@ -17,6 +17,7 @@ public class fizzbuzz {
         if (num != 0) {
             fizzbuzzin();
         }
+
     }
 
     public static void main(String[] args) {

@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1366a7fd-fb1d-4c8e-8138-af4fa98c4b55" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/src/Main.java" afterDir="false" />
+>>>>>>> 716f4d793559fd5b43db56fc65a55a13b81a71d5
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,12 +19,24 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.idea/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
               <caret line="77" column="21" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="60" column="31" selection-start-line="60" selection-start-column="31" selection-end-line="60" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+>>>>>>> 716f4d793559fd5b43db56fc65a55a13b81a71d5
             </state>
           </provider>
         </entry>
@@ -49,9 +65,16 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
     <option name="y" value="23" />
     <option name="width" value="1264" />
     <option name="height" value="709" />
+=======
+    <option name="x" value="44" />
+    <option name="y" value="50" />
+    <option name="width" value="1927" />
+    <option name="height" value="964" />
+>>>>>>> 716f4d793559fd5b43db56fc65a55a13b81a71d5
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -155,17 +178,26 @@
       <option name="presentableId" value="Default" />
       <updated>1569255286256</updated>
       <workItem from="1569255288100" duration="4226000" />
-      <workItem from="1569259799704" duration="3756000" />
+      <workItem from="1569259799704" duration="7475000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="11719000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1264" height="709" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1415712" />
+=======
+    <option name="totallyTimeSpent" value="11701000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="44" y="50" width="1927" height="964" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.086472146" />
+>>>>>>> 716f4d793559fd5b43db56fc65a55a13b81a71d5
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -174,7 +206,11 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Run" order="2" weight="0.2917342" />
+=======
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.46145493" />
+>>>>>>> 716f4d793559fd5b43db56fc65a55a13b81a71d5
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -182,9 +218,15 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
+<<<<<<< HEAD
       <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32901135" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5008183" side_tool="true" weight="0.33225283" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32901135" />
+=======
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32903227" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.23069106" />
+>>>>>>> 716f4d793559fd5b43db56fc65a55a13b81a71d5
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -205,15 +247,28 @@
     <entry file="file://$PROJECT_DIR$/.idea/src/Fighters.java" />
     <entry file="file://$PROJECT_DIR$/.idea/src/fizzbuzz.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="76">
           <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+=======
+        <state relative-caret-position="247">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+>>>>>>> 716f4d793559fd5b43db56fc65a55a13b81a71d5
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="330">
           <caret line="77" column="21" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
+=======
+        <state relative-caret-position="252">
+          <caret line="60" column="31" selection-start-line="60" selection-start-column="31" selection-end-line="60" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+>>>>>>> 716f4d793559fd5b43db56fc65a55a13b81a71d5
         </state>
       </provider>
     </entry>
