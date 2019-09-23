@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class Main {
     //
     public static Scanner sc = new Scanner(System.in);
+    public static String choice;
 
     public static int potion = 18;
     public static int defDecrementor = 15;
@@ -56,9 +57,33 @@ public class Main {
 
     };
 
+    // Validate input
+      public static String validateInput() {
+
+        switch (choice) {
+            case "a":
+                return choice;
+            case "b":
+                return choice;
+            case "c":
+                return choice;
+            case "d":
+                return choice;
+            default:
+                System.out.println("Input is invalid. Please enter a letter:  ");
+                choice = sc.nextLine();
+                validateInput();
+
+        }
+        return choice;
+    }
+
+
+
+
     // Human move choice
     public static String humanMoveChoice() {
-        String choice;
+        choice = "";
         Character enteredChoice;
 
         System.out.println(humanName + "'s Move !");
@@ -69,28 +94,59 @@ public class Main {
 
         // Take in user input
         System.out.println("Enter a letter: ");
-        enteredChoice = sc.nextLine().charAt(0);
+        choice = sc.nextLine();
 
         // convert entered choice to string and lowercase
-        choice = enteredChoice.toString();
         choice = choice.toLowerCase();
 
         System.out.println(choice);
+        return validateInput();
 
-        // Validate input
-        while (choice != "a" && choice != "b" && choice != "c" && choice != "d") {
-            System.out.println("Enter a valid choice !\n");
+    };
 
-            System.out.println("Enter a letter: ");
-            enteredChoice = sc.nextLine().charAt(0);
-            choice = enteredChoice.toString();
-            choice = choice.toLowerCase();
 
-            System.out.println(choice);
+    //human choice logic
+
+    public static void humanChoiceLogic(String input){
+
+        switch (input){
+            case "a" :
+                System.out.println(humanName +  " threw a beer at Robot");
+                RobotHP = RobotHP - (wAttack() - (RobotDef / 10));
+                break;
+            case "b" :
+                System.out.println(humanName +  " hit robot with guitar");
+                RobotHP = RobotHP - (sAttack() - (RobotDef / 10));
+                break;
+            case "c" :
+                System.out.println(humanName +  " drank a beer");
+                HumanHP = HumanHP + potion;
+                HumanPotions--;
+                System.out.println("You increased your health to " + HumanHP + ". You have " + HumanPotions + " remaining.");
+                break;
+            case "d" :
+                System.out.println(humanName +  " played a sick riff the crowd loves!");
+                RobotDef = RobotDef - defDecrementor;
+                System.out.println("You reduced the robot's defenses to " + RobotDef);
+                break;
+            default :
+                System.out.println("default case");
+
+
         }
 
-        return choice;
-    };
+
+    }
+
+
+
+    //System.out.println("A. Throw a beer at Robot");
+    //        System.out.println("B. Hit robot with guitar");
+    //        System.out.println("C. Drink a beer");
+    //        System.out.println("D. Play a sick rift the crowd loves!");
+
+
+
 
     // Robot thinking
     public static void robotThinking(int delay) {
@@ -100,6 +156,8 @@ public class Main {
             e.printStackTrace();
         }
     }
+
+
 
 
     public static void main(String[] args) {
@@ -127,7 +185,9 @@ public class Main {
 //
 //        System.out.println(RobotHP);
 
-        round();
+//        round();
+
+        humanChoiceLogic(humanMoveChoice());
 
 
     }
