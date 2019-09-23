@@ -1,0 +1,47 @@
+adventure game
+
+human vs robot
+==============
+robot
+  only like EDM
+  starts with 100 hp
+  starts with 100 def
+  4 choices
+    weak attack (throws an ipod)
+      1 - 15 dmg
+    strong attack (tazes)
+      15 - 25 dmg
+    regain (shuffle)
+      18 hp
+    lower defense (detune guitar)
+      lowers defense of opponent
+  death (short circuits)
+  response
+    watak
+      don't splash me bro
+    satak
+      "101110010110101 !"
+    lowers defense
+      "i dont have ears"
+
+human
+  likes rock and roll
+  starts with 100 hp
+  starts with 100 def
+  4 choices
+    weak attack (throws beer at opponent)
+      1 - 15 dmg
+    strong attack (hit you with guitar) 
+      15 - 25 dmg
+    regain (beer)
+      18 hp
+    lower defense (sick rift that the crown luvs)
+      x
+  death
+  response 
+    watak
+      no one uses this anymore !
+    satak
+      don't taze me bro !
+    lowers defense
+      crowd boos
