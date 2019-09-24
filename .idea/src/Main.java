@@ -65,6 +65,10 @@ public class Main {
         roundCount++;
     };
 
+
+
+
+
     // Validate input
     public static String validateInput() {
 
@@ -234,11 +238,8 @@ public class Main {
                 break;
             default :
                 System.out.println("default case");
-
         }
-
     }
-
 
     // Display status
     public static void displayStats() {
@@ -407,14 +408,4 @@ public class Main {
             asciiHuzzah();
         }
     }
-
-
-
-
-
-
-
-
-
-
 }
